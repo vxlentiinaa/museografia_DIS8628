@@ -61,5 +61,24 @@ flowchart TB
     classDef yellow fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px
     classDef pink fill:#F8BBD0,stroke:#C2185B,stroke-width:2px
     classDef purple fill:#E1BEE7,stroke:#8E24AA,stroke-width:2px
+    style A color:#000000
+    style B color:#000000
+    style C color:#000000
+    style D color:#000000
+    style E color:#000000
+    style F color:#000000
+    style G color:#000000
+    style H color:#000000
+    style I color:#000000
+    style J color:#000000
+    style K color:#000000
+    style L color:#000000
+    style M color:#000000
+    style N color:#000000
+    style O color:#000000
     style P color:#000000
+    style Q color:#000000
+    style R color:#000000
+    style S color:#000000
+    style T color:#000000
 ```
