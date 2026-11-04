@@ -16,25 +16,23 @@ La propuesta se plantea como una experiencia inmersiva y participativa, disposit
 
 ```mermaid
 flowchart TB
-    A("Jóvenes") --> B("Promover educación cívica")
+    A("Jóvenes") --> B("Promover educación cívica") & I("Comunidad") & N("Capacidad de cambio")
     B --> C("Educación")
     C --- D["Voces"] & E("Cambio") & F("Movimiento")
     D --- G("Superposición")
     E --- G
     F --- G
     G --> H("Convergencia de voces juveniles donde educación y empatía impulsan el cambio. Reúne movimientos, experiencias y períodos históricos que dialogan, se cruzan y conviven en un mismo espacio.")
-    A --> I("Comunidad")
     I --> J("Empatía")
     J --- K("Conciencia")
     K --- L("Memoria")
     L --> M("Conjunto de huellas, relatos y testimonios que permanecen en el tiempo. Vincula experiencias individuales y colectivas que permiten conservar, transmitir y reinterpretar distintas historias.")
-    A --> N("Capacidad de cambio")
     N --> O("Protestas")
     O --- P("Comunicar")
-    P --- Q("Participativo")
-    P --- R("Acción")
-    Q --- S("Disrupción")  
-    R --- S --> T("Acción que supera la ruptura para convertirse en una fuerza de transformar. Mediante expresión, participación y cuestionamiento, impulsa nuevas formas de visibilización y cambio social.")
+    P --- Q("Participativo") & R("Acción")
+    Q --- S("Disrupción")
+    R --- S
+    S --> T("Acción que supera la ruptura para convertirse en una fuerza de transformar. Mediante expresión, participación y cuestionamiento, impulsa nuevas formas de visibilización y cambio social.")
 
     D@{ shape: rounded}
      A:::purple
@@ -57,11 +55,11 @@ flowchart TB
      R:::purple
      S:::green
      T:::yellow
-
     classDef green fill:#B2DFDB,stroke:#00897B,stroke-width:2px
     classDef orange fill:#FFE0B2,stroke:#FB8C00,stroke-width:2px
     classDef blue fill:#BBDEFB,stroke:#1976D2,stroke-width:2px
     classDef yellow fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px
     classDef pink fill:#F8BBD0,stroke:#C2185B,stroke-width:2px
     classDef purple fill:#E1BEE7,stroke:#8E24AA,stroke-width:2px
+    style P color:#000000
 ```
